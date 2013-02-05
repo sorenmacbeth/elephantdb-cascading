@@ -5,7 +5,7 @@
   :javac-options ["-source" "1.6" "-target" "1.6"]
   :jvm-opts ["-server" "-Xmx768m"]
   :repositories {"conjars" "http://conjars.org/repo"}
-  :dependencies [[yieldbot/elephantdb "0.2.0-SNAPSHOT"]
+  :dependencies [[elephantdb "0.2.0-SNAPSHOT"]
                  [cascading/cascading-hadoop "2.0.6"
                   :exclusions [org.apache.hadoop/hadoop-core]]]
   :profiles {:provided
